@@ -10,7 +10,7 @@ import FeltM from './assets/table/felt1280m.png'
 import Navbar from './components/Navbar'
 // import Footer from './components/Footer'
 import Dice from './components/Dice'
-import { Typography } from '@mui/material'
+// import { Typography } from '@mui/material'
 
 function App() {
   const [topfaceb, setTopfaceb] = useState(() => {
@@ -49,9 +49,9 @@ function App() {
         >
           <Dice topfaceb={topfaceb} />
         </Stack>
-        <Typography sx={{ position: 'absolute', bottom: 1, ml: '10px' }}>
+        {/* <Typography sx={{ position: 'absolute', bottom: 1, ml: '10px' }}>
           Michael Saucedo © 2022
-        </Typography>
+        </Typography> */}
         {/* <Footer rollDice={rollDice} /> */}
       </Box>
     </ThemeProvider>
