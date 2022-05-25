@@ -4,7 +4,7 @@ This project was created for fun and practice with Material UI 5 and flexbox. Pa
 
 ### Copyright 2022 Michael Saucedo
 
-View dice at this [craps table](https://ds1.diceflex.app/).
+View dice at this [craps table](https://diceflex.netlify.app/).
 
 <br />
 <p align="center">
