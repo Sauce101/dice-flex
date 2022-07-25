@@ -1,4 +1,4 @@
-// DIE
+// DIE OLD for referance
 const SHOW = [
   'translateZ(-100px) rotateY(0deg)',
   'translateZ(-100px) rotateY(-90deg)',

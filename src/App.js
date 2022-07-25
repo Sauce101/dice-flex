@@ -8,9 +8,7 @@ import Felt from './assets/table/felt2560.png'
 import FeltM from './assets/table/felt1280m.png'
 
 import Navbar from './components/Navbar'
-// import Footer from './components/Footer'
-import Dice from './components/Dice'
-// import { Typography } from '@mui/material'
+import CrapsFlex from './components/CrapsFlex'
 
 function App() {
   const [topfaceb, setTopfaceb] = useState(() => {
@@ -37,22 +35,16 @@ function App() {
         }}
       >
         <Navbar rollDice={rollDice} />
-        {/* <Stack direction="row" spacing={2} justifyContent="space-evenly"> */}
         <Stack
           direction={{ xs: 'column', sm: 'row' }}
           spacing={2}
-          // justifyContent={{ xs: 'space-around', sm: 'space-evenly' }}
           justifyContent={'space-evenly'}
           alignItems={{ xs: 'center' }}
           gap={{ xs: 8 }}
           mb={{ xs: 'auto' }}
         >
-          <Dice topfaceb={topfaceb} />
+          <CrapsFlex topfaceb={topfaceb} />
         </Stack>
-        {/* <Typography sx={{ position: 'absolute', bottom: 1, ml: '10px' }}>
-          Michael Saucedo © 2022
-        </Typography> */}
-        {/* <Footer rollDice={rollDice} /> */}
       </Box>
     </ThemeProvider>
   )
