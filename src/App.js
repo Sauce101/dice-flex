@@ -23,7 +23,13 @@ function App() {
       <CssBaseline />
       <Box
         sx={{
-          backgroundImage: { xs: `url(${FeltM})`, sm: `url(${Felt})` },
+          // backgroundImage: { xs: `url(${FeltM})`, sm: `url(${Felt})` },
+          '@media (orientation: portrait)': {
+            backgroundImage: `url(${FeltM})`,
+          },
+          '@media (orientation: landscape)': {
+            backgroundImage: `url(${Felt})`,
+          },
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center center',
           backgroundSize: 'cover',
