@@ -23,7 +23,6 @@ function App() {
       <CssBaseline />
       <Box
         sx={{
-          // backgroundImage: { xs: `url(${FeltM})`, sm: `url(${Felt})` },
           '@media (orientation: portrait)': {
             backgroundImage: `url(${FeltM})`,
           },
@@ -42,12 +41,19 @@ function App() {
       >
         <Navbar rollDice={rollDice} />
         <Stack
-          direction={{ xs: 'column', sm: 'row' }}
-          spacing={2}
-          justifyContent={'space-evenly'}
-          alignItems={{ xs: 'center' }}
-          gap={{ xs: 8 }}
-          mb={{ xs: 'auto' }}
+          sx={{
+            display: 'flex',
+            '@media (orientation: portrait)': {
+              flexDirection: 'column',
+            },
+            '@media (orientation: landscape)': {
+              flexDirection: 'row',
+              justifyContent: 'center',
+            },
+            alignItems: 'center',
+            gap: 20,
+            mb: 'auto',
+          }}
         >
           <CrapsFlex topfaceb={topfaceb} />
         </Stack>
