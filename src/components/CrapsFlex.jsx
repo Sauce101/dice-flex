@@ -72,7 +72,7 @@ export default function CrapsFlex({ topfaceb }) {
               height: diceResponsive,
               position: 'relative',
               transformStyle: 'preserve-3d',
-              transition: 'transform 0.8s',
+              transition: 'transform 1.2s',
             }}
           >
             {diceStart.map((spot, index) => (
@@ -92,11 +92,11 @@ export default function CrapsFlex({ topfaceb }) {
                 <CardMedia
                   component="img"
                   src={spot.src}
-                  alt={spot.alt}
                   sx={{
                     width: diceResponsive,
                     height: diceResponsive,
                   }}
+                  alt={spot.alt}
                 />
               </Card>
             ))}

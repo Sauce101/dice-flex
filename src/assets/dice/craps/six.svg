@@ -4,62 +4,49 @@
    height="189.60001"
    version="1.1"
    viewBox="0 0 189.60001 189.60001"
-   id="svg3992"
    xmlns="http://www.w3.org/2000/svg">
-  <defs id="defs3996" />
   <g
      transform="translate(-5.1999998,-927.72002)"
      stroke="hsla(0, 90%, 50%, 0.5)"
-     stroke-linecap="square"
-     id="g3990">
+     stroke-linecap="square">
     <rect
        x="10"
        y="932.52002"
        width="180"
        height="180"
-       rx="24"
+       rx="0"
        ry="24"
        fill="hsla(0, 90%, 50%, 0.5)"
-       stroke-width=".6"
-       id="rect3974" />
-    <g
-       id="g3988">
+       stroke-width=".6"/>
       <circle
          cx="50"
          cy="972.52002"
          r="20"
-         fill='white'
-         id="circle3976" />
+         fill='white' />
       <circle
          cx="150"
          cy="972.52002"
          r="20"
-         fill='white'
-         id="circle3978" />
+         fill='white' />
       <circle
          cx="50"
          cy="1022.5"
          r="20"
-         fill='white'
-         id="circle3980" />
+         fill='white' />
       <circle
          cx="150"
          cy="1022.5"
          r="20"
-         fill='white'
-         id="circle3982" />
+         fill='white' />
       <circle
          cx="50"
          cy="1072.5"
          r="20"
-         fill='white'
-         id="circle3984" />
+         fill='white' />
       <circle
          cx="150"
          cy="1072.5"
          r="20"
-         fill='white'
-         id="circle3986" />
-    </g>
+         fill='white' />
   </g>
 </svg>
